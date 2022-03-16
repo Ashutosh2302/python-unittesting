@@ -12,5 +12,5 @@ def test_sub(calculator):
     assert calculator.subtract(6, 3) == 3
 
 def test_mul(calculator):
-    assert calculator.mul(6, 3) == 18
+    assert calculator.multiply(6, 3) == 18
 
