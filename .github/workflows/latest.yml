@@ -31,6 +31,6 @@ jobs:
         mypy-flags: '--ignore-missing-imports'
         fail-on-isort: false
         skip-flake8: true
-    - name: Test with pytest
+    - name: Unittests
       run: |
          python -m pytest
